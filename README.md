@@ -4,7 +4,7 @@ An interactive Italian language course built with reveal.js, designed to teach I
 
 ## 📚 Overview
 
-This project provides a comprehensive Italian language learning experience through interactive web-based presentations. Each lesson covers different aspects of the Italian language, from phonetics to grammar and common phrases.
+This project provides a comprehensive Italian language learning experience through interactive web-based presentations. Each lesson covers different aspects ofnguage, from phonetics to grammar and common phrases.
 
 ## ✨ Features
 
