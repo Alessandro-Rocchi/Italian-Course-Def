@@ -8,7 +8,7 @@
             "type": "chrome",
             "request": "launch",
             "name": "Open Lesson01.html",
-            "file": "/home/andrea/Scrivania/Italian-Course-Def/slides/Lesson01.html"
+            "file": "D:\\InfoUma\\Italian-Course-Definitivo\\Lesson01.html"
         }
     ]
 }
