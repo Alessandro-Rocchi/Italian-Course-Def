@@ -9,6 +9,7 @@
 		<link rel="stylesheet" href="../dist/reset.css">
 		<link rel="stylesheet" href="../dist/reveal.css">
 		<link rel="stylesheet" href="../dist/theme/blood.css">
+		<link rel="stylesheet" href="plugin/drawer/drawer.css" />
 
 		<!-- Theme used for syntax highlighted code -->
 		<link rel="stylesheet" href="../plugin/highlight/monokai.css">
@@ -302,8 +303,7 @@
 		<script src="../plugin/notes/notes.js"></script>
 		<script src="../plugin/markdown/markdown.js"></script>
 		<script src="../plugin/highlight/highlight.js"></script>
-		<script src="https://cdn.jsdelivr.net/npm/reveal.js-plugins@latest/seminar/plugin.js"></script>
-		<script src="https://cdnjs.cloudflare.com/ajax/libs/socket.io/4.6.1/socket.io.js"></script>
+		<script src="plugin/drawer/drawer.js"></script>
 		<script>
 			// More info about initialization & config:
 			// - https://revealjs.com/initialization/
@@ -312,12 +312,6 @@
 				hash: true,
 
 				// Learn about plugins: https://revealjs.com/plugins/
-				seminar: {
-							server: 'https://alessandro-rocchi.github.io/Italian-Course-Def/', // change server as necessary
-							room: 'Italian lesson', // put your room name here
-							hash: '$2a$05$hhgakVn1DWBfgfSwMihABeYToIBEiQGJ.ONa.HWEiNGNI6mxFCy8S', // a hash is required for every seminar room and can be generated on the URL of the socket.io server
-							autoJoin: true // set to true to auto,matically join the seminar room
-				},	
 				plugins: [ RevealMarkdown, RevealHighlight, RevealNotes ]
 			});
 		</script>
