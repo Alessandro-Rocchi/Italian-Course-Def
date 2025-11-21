@@ -9,6 +9,7 @@
 		<link rel="stylesheet" href="../dist/reset.css">
 		<link rel="stylesheet" href="../dist/reveal.css">
 		<link rel="stylesheet" href="../dist/theme/blood.css">
+		<link rel="stylesheet" href="../plugin/drawer/drawer.css" />
 
 		<!-- Theme used for syntax highlighted code -->
 		<link rel="stylesheet" href="../plugin/highlight/monokai.css">
@@ -302,15 +303,40 @@
 		<script src="../plugin/notes/notes.js"></script>
 		<script src="../plugin/markdown/markdown.js"></script>
 		<script src="../plugin/highlight/highlight.js"></script>
+		<script src="../plugin/drawer/drawer.js"></script>
 		<script>
 			// More info about initialization & config:
 			// - https://revealjs.com/initialization/
 			// - https://revealjs.com/config/
 			Reveal.initialize({
-				hash: true,
 
-				// Learn about plugins: https://revealjs.com/plugins/
-				plugins: [ RevealMarkdown, RevealHighlight, RevealNotes ]
+				hash: true,
+				dependencies:[
+				{ src: '../plugin/toc/tableofcontents.js' },
+			],
+
+				tableofcontents: {
+				// Specifies the slide title of the table of contents slide
+				title: "Table of Contents",
+
+				// Specifies the position of the table of contents slide in the presentation
+				position: 2,
+
+				// Specifies html tag in which the table of contents title stands
+				titleTag: "h2",
+
+				// Specifies which slide tag elements will be used
+				// for generating the table of contents.
+				titleTagSelector: "h2",
+
+				// Specifies if the first slide, mostly the title slide of the presentation, should be ignored.
+				ignoreFirstSlide: true,
+
+				// Specifies if every single element of the table of contents
+				// will be stepped through before moving on to the next slide.
+				fadeInElements: false
+			},
+				plugins: [ RevealMarkdown, RevealHighlight, RevealNotes, RevealDrawer ]
 			});
 		</script>
 	</body>
