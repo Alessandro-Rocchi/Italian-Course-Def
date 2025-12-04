@@ -195,14 +195,31 @@ html.reveal-full-page {
 .reveal .fragment.highlight-red,
 .reveal .fragment.highlight-current-red,
 .reveal .fragment.highlight-green,
-.reveal .fragment.highlight-current-green,
 .reveal .fragment.highlight-blue,
-.reveal .fragment.highlight-current-blue {
+.reveal .fragment.highlight-current-blue
+.reveal .fragment.highlight-current-green,
+.reveal .fragment.highlight-current-green,
+.reveal .fragment.highlight-pink,
+.reveal .fragment.highlight-current-pink,
+.reveal .fragment.highlight-orange,
+.reveal .fragment.highlight-current-orange,
+.reveal .fragment.highlight-yellow,
+.reveal .fragment.highlight-current-yellow,
+.reveal .fragment.highlight-purple,
+.reveal .fragment.highlight-current-purple,
+.reveal .fragment.highlight-brown,
+.reveal .fragment.highlight-current-brown,
+.reveal .fragment.highlight-gray,
+.reveal .fragment.highlight-current-gray,
+.reveal .fragment.highlight-black,
+.reveal .fragment.highlight-current-black,
+.reveal .fragment.highlight-white,
+.reveal .fragment.highlight-current-white {
 	opacity: 1;
 	visibility: inherit;
 }
 	.reveal .fragment.highlight-red.visible {
-		color: #ff2c2d
+		color: #ff2c2d;
 	}
 	.reveal .fragment.highlight-green.visible {
 		color: #17ff2e;
@@ -210,9 +227,33 @@ html.reveal-full-page {
 	.reveal .fragment.highlight-blue.visible {
 		color: #1b91ff;
 	}
+	.reveal .fragment.highlight-pink.visible {
+		color: #ff00b3;
+	}
+	.reveal .fragment.highlight-orange.visible {
+		color: #ff5e00;
+	}
+	.reveal .fragment.highlight-yellow.visible {
+		color: #ffd000;
+	}
+	.reveal .fragment.highlight-purple.visible {
+		color: #b700ff;
+	}
+	.reveal .fragment.highlight-brown.visible {
+		color: #5a2303;
+	}
+	.reveal .fragment.highlight-gray.visible {
+		color: #8b8b8b;
+	}
+	.reveal .fragment.highlight-black.visible {
+		color: #000000;
+	}
+	.reveal .fragment.highlight-white.visible {
+		color: #ffffff;
+	}
 
 .reveal .fragment.highlight-current-red.current-fragment {
-	color: #ff2c2d
+	color: #ff2c2d;
 }
 .reveal .fragment.highlight-current-green.current-fragment {
 	color: #17ff2e;
@@ -220,7 +261,30 @@ html.reveal-full-page {
 .reveal .fragment.highlight-current-blue.current-fragment {
 	color: #1b91ff;
 }
-
+.reveal .fragment.highlight-pink.current-fragment {
+	color: #ff00b3;
+}
+.reveal .fragment.highlight-orange.current-fragment {
+	color: #ff5e00;
+}
+.reveal .fragment.highlight-yellow.current-fragment {
+	color: #ffd000;
+}
+.reveal .fragment.highlight-purple.current-fragment {
+	color: #b700ff;
+}
+.reveal .fragment.highlight-brown.current-fragment  {
+	color: #5a2303;
+}
+.reveal .fragment.highlight-gray.current-fragment {
+	color: #8b8b8b;
+}
+.reveal .fragment.highlight-black.current-fragment {
+	color: #000000;
+}
+.reveal .fragment.highlight-white.current-fragment {
+		color: #ffffff;
+}
 
 /*********************************************
  * DEFAULT ELEMENT STYLES
